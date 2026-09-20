@@ -1,5 +1,7 @@
 # Density-Based and Centroid-Based Clustering for Time Series Anomaly Detection
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sawoodanwar/dbscan-kmeans-timeseries-anomaly-detection/blob/main/dbscan_kmeans_timeseries.ipynb)
+
 **Author:** Sawood Anwar | [ORCID: 0009-0000-2819-9179](https://orcid.org/0009-0000-2819-9179)
 
 ---
@@ -36,11 +38,13 @@ The methods are then compared on anomaly agreement, temporal distribution, and i
 
 ## Requirements
 
+Install dependencies:
+
 ```
-numpy pandas matplotlib seaborn scikit-learn scipy
+pip install -r requirements.txt
 ```
 
-Install: `pip install numpy pandas matplotlib seaborn scikit-learn scipy`
+Or run directly in the browser with no installation via the **Open In Colab** badge above.
 
 ---
 
@@ -55,6 +59,12 @@ Install: `pip install numpy pandas matplotlib seaborn scikit-learn scipy`
 | `kmeans_pca.png` | K-Means clusters + anomaly overlay |
 | `comparison_monthly.png` | Monthly anomaly counts by method |
 | `anomaly_flags.csv` | All flagged records with method labels |
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE).
 
 ---
 
